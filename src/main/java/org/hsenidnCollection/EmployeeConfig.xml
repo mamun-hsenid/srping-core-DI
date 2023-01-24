@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean class="org.hsenidnCollection.Employee" name="employee">
+        <property name="empID" value="7877FZX" />
+        <property name="empFamily">
+            <set>
+                <value>Mamun</value>
+                <value>Ibrahim</value>
+                <value>TF</value>
+                <value>BB</value>
+                <value>BB</value>
+                <value>Mejo</value>
+                <value>Orthi</value>
+            </set>
+        </property>
+        <property name="empPhone">
+            <list>
+                <value>01930359966</value>
+                <value>2132132432</value>
+                <value>1111111111</value>
+                <value>44444444444</value>
+                <value>66666666666</value>
+            </list>
+        </property>
+        <property name="empCourse">
+            <map>
+                <entry key="Java" value="411" />
+                <entry key="C++" value="343" />
+                <entry key="Python" value="399" />
+                <entry key="C" value="998" />
+                <entry key="Electronics" value="666" />
+            </map>
+        </property>
+        <property name="props">
+            <props>
+                <prop key="companyName">hSenid Mobile Solutions Limited</prop>
+                <prop key="services">Cpass, Telco API</prop>
+            </props>
+        </property>
+    </bean>
+
+
+
+
+</beans>
