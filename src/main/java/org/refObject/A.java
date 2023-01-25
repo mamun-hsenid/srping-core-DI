@@ -1,7 +1,6 @@
 package org.refObject;
 
 public class A {
-
     private int x;
     private B ob;
 
@@ -37,5 +36,4 @@ public class A {
                 ", ob=" + ob +
                 '}';
     }
-
 }
