@@ -22,5 +22,11 @@ public class AmbiguityPractice {
     public void doSum(){
         System.out.println(this.a+" + "+this.b+" = "+(this.a+this.b));
     }
+    public void init(){
+        System.out.println("Bean object initiated");
+    }
+    public void destroy(){
+        System.out.println("Bean object Destroyed");
+    }
 
 }

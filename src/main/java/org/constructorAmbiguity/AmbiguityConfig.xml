@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="org.constructorAmbiguity.AmbiguityPractice" name="ambPractice">
+    <bean class="org.constructorAmbiguity.AmbiguityPractice" name="ambPractice" init-method="init" destroy-method="destroy">
         <constructor-arg name="a" value="23" type="double"/>
         <constructor-arg name="b" value="22" type="double"/>
     </bean>
