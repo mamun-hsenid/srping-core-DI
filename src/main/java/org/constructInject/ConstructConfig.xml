@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.constructInject.Student" name="studentCon">
+        <constructor-arg name="studentEmail" value="mamun@gmail.com" />
+        <constructor-arg name="studentId" value="11223356" />
+        <constructor-arg name="studentName" value="Abdullah Al-Mamun" />
+    </bean>
+</beans>
